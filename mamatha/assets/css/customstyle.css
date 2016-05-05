@@ -1,0 +1,115 @@
+
+
+	* { padding: 0; margin: 0; }
+	body { overflow-y: hidden; overflow-x: scroll; }
+
+	#filler { position: absolute; top: 0; left: 0; width: 1875px; height: 100%; }
+	#container { width: 1875px; position: absolute; background-color: #000000; }
+
+	.clear { clear: both; }
+	#return-link { position: fixed; top: 12px; left: 18px; font: 11px Verdana, Arial, sans-serif; text-transform: uppercase; }
+	#return-link:link, #return-link:visited { color: #06F; text-decoration: none; }
+	#return-link:hover, #return-link:active { text-decoration: underline; }
+	.sectionscroll img{
+		width: 375px;
+		height: 800px;
+		    opacity: 0.6;
+	}
+	.sectionscroll img:hover
+	{
+		/*-moz-box-shadow: 0 0 10px #ccc;
+		-webkit-box-shadow: 0 0 10px #ccc;
+		box-shadow: 0 0 10px #ccc;*/
+		    opacity: 22.6;
+	}
+	.readmorebtn{
+		    position: absolute;
+    z-index: 1111;
+    top: 300px;
+    /* margin: 0 auto; */
+    left: 127px;
+    /* padding: 142px; */
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 16px;
+    left: 7%;
+    font-size: 20px;
+    /* font-weight: 400; */
+    font-family: raleway;cursor: pointer;
+
+	}
+	
+	span.readmorebtn1 {
+    position: absolute;
+    z-index: 1111;
+    top: 300px;
+    /* margin: 0 auto; */
+    left: 520px;
+    /* padding: 142px; */
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 16px;
+    left: 27%;
+    font-size: 20px;
+    /* font-weight: 400; */
+    font-family: raleway;cursor: pointer;
+
+}
+
+span.readmorebtn2 {
+    position: absolute;
+    z-index: 1111;
+    top: 300px;
+    /* margin: 0 auto; */
+    left: 520px;
+    /* padding: 142px; */
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 16px;
+    left: 47%;
+    font-size: 20px;
+    /* font-weight: 400; */
+    font-family: raleway;cursor: pointer;
+}
+
+span.readmorebtn3 {
+    position: absolute;
+    z-index: 1111;
+    top: 300px;
+    /* margin: 0 auto; */
+    left: 520px;
+    /* padding: 142px; */
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 16px;
+        left: 67%;
+        font-size: 20px;
+    /* font-weight: 400; */
+    font-family: raleway;cursor: pointer;
+}
+
+span.readmorebtn4 {
+    position: absolute;
+    z-index: 1111;
+    top: 300px;
+    /* margin: 0 auto; */
+    left: 520px;
+    /* padding: 142px; */
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 16px;
+    left: 87%;
+    font-size: 20px;
+    /* font-weight: 400; */
+    font-family: raleway;cursor: pointer;
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../img/frontend/loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
